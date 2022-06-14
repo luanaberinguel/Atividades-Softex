@@ -1,0 +1,70 @@
+Instruções do projeto
+Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+
+- Nome
+- Endereço
+- Cidade
+- CPF
+- RG
+- Idade
+- Nome do pai
+- Nome da mãe
+- Peso
+- Renda bruta
+
+Apresente as informações solicitadas no final do cadastro.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+algoritmo "Cadastro"
+
+// Nome:
+// Endereço:
+// Cidade:
+// CPF:
+// RG:
+// Idade:
+// Nome do pai:
+// Nome da mãe:
+// Peso:
+// Renda bruta:
+
+var
+CPF, RG, Idade : inteiro
+Nome, Endereço, Cidade, Nome do pai, Nome da mãe: caracter
+Peso, Renda bruta: real
+início
+// Seção de Comandos
+repita
+escreva("Cadastro")
+escreva("1-cadastrar")
+escreva("2-sair")
+leia(opcao)
+escolha opcao
+caso 1
+escreva("Nome:")
+leia(nome)
+escreva("Endereço:")
+leia(endereço)
+escreva("Cidade:")
+leia(cidade)
+escreva("CPF:")
+leia(cpf)
+escreva(RG:")
+leia(rg)
+escreva("Idade:")
+leia(idade)
+escreva("Nome do pai:")
+leia(nome do pai)
+escreva("Nome da mãe:")
+leia(nome da mãe)
+escreva("Peso:")
+leia(peso)
+escreva("Renda bruta")
+leia(renda bruta)
+caso 2
+escreva("Cadastro Finalizado!")
+outrocaso
+escreva("Cadastro Incompleto! Favor preencher campos obrigatórios!")
+fimescolha
+fimalgoritmo
