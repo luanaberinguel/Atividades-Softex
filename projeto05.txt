@@ -1,0 +1,212 @@
+Instruções do projeto
+Elabore um algoritmo que possa descobrir, através de perguntas e respostas, qual meio de transporte o usuário está pensando.
+O usuário deverá escolher uma das seguintes opções:
+
+- Trator
+- Moto
+- Bicicleta
+- Trem
+- Carro
+- Caminhão
+- Ônibus
+- Paraquedas
+- Balão
+- Avião
+- Helicóptero
+- Submarino
+- Barco
+- Navio
+- Lancha
+
+Para chegar ao resultado, só devem ser usadas perguntas que retornem "Sim" ou "Não".
+
+Exemplo:
+É terrestre? Sim.
+Cabe apenas uma pessoa? Sim.
+É pesado? Não.
+Tem pedal? Sim.
+Então, o transporte escolhido foi a bicicleta.
+
+Para chegar ao resultado de cada uma das opções, use o modelo ilustrado na imagem em anexo. 
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+Algoritmo "Meio de Transporte"
+declarações
+trator, moto, biclicleta, trem, carro, caminhão, ônibus, paraquedas, balão, avião, helicptéro, submarino, barco, navio, lancha : caracter 
+
+inicio
+escreva("Escreva Sim ou Não.")
+escreva("Você usa algum meio de transporte?")
+leia (Sim)
+se (Sim) entao
+escreva("É um transporte terrestre?")
+leia (Sim)
+se (sim) entao
+escreva("Tem rodas?")
+leia (Sim)
+se (sim) entao
+escreva("Cabe apenas uma pessoa?")
+leia (Sim)
+se (Sim) entao
+escreva("É pesado?")
+leia(Não)
+se (Não) entao
+escreva("Tem pedal?")
+leia (Sim)
+se (Sim) entao 
+escreva("O transporte escolhido foi a biclicleta.")
+senão
+se (Não) entao
+escreva("O transporte escolhido foi a moto.")
+fimse
+fimse
+se (Sim) entao
+escreva("É um transporte terrestre?")
+leia (Sim)
+se (sim) entao
+escreva("Tem rodas?")
+leia (Sim)
+se (sim) entao
+escreva("Cabe apenas uma pessoa?")
+leia (Sim)
+se (Sim) entao
+escreva("É pesado?")
+leia(Sim)
+se (Sim) entao
+escreva("O transporte escolhido foi o trator.")
+fimse
+se (Sim) entao
+escreva("É um transporte terrestre?")
+leia (Sim)
+se (sim) entao
+escreva("Tem rodas?")
+leia (Não)
+se (Não) entao
+escreva("O transporte escolhido foi um trem.")
+fimse
+se (Sim) entao
+escreva("É um transporte terrestre?")
+leia (Sim)
+se (sim) entao
+escreva("Tem rodas?")
+leia (Sim)
+se (sim) entao
+escreva("Cabe apenas uma pessoa?")
+leia (Não)
+se (Não) entao
+escreva("Tem caçamba?")
+se (Sim) entao
+escreva("O transporte escolhido foi o caminhão.")
+fimse
+se (Sim) entao
+escreva("É um transporte terrestre?")
+leia (Sim)
+se (sim) entao
+escreva("Tem rodas?")
+leia (Sim)
+se (sim) entao
+escreva("Cabe apenas uma pessoa?")
+leia (Não)
+se (Não) entao
+escreva("É um transporte público?")
+se (Sim) entao
+escreva("O transporte escolhido foi o ônibus.")
+senão
+se(Não) entao
+escreva ("O transporte escolhido foi o carro.")
+fimse
+fimse
+se (Sim) entao
+escreva("É um transporte terrestre?")
+leia (Não)
+se (Não) entao
+escreva("É um transporte aéreo?")
+leia (sim)
+se (sim) entao
+escreva("É um transporte comercial?")
+leia (Sim)
+se (Sim) entao
+escreva("Tem capacidade para muitas pessoas?")
+leia (Sim)
+se (Sim) entao
+escreva("O transporte escolhido foi o avião?")
+senão
+se (Não) entao
+escreva (O transporte escolhido foi o helicptero.")
+fimse
+fimse
+se (Sim) entao
+escreva("É um transporte terrestre?")
+leia (Não)
+se (Não) entao
+escreva("É um transporte aéreo?")
+leia (sim)
+se (sim) entao
+escreva("É um transporte comercial?")
+leia (Não)
+se (Não) entao
+escreva("É um transporte considerado radical?")
+leia (sim)
+escreva("O transporte escolhido foi o paraquedas.")
+senão
+se (não) entao
+escreva("O trasnporte escolhido foi o balão.")
+fimse
+fimse
+se (Sim) entao
+escreva("É um transporte terrestre?")
+leia (Não)
+se (Não) entao
+escreva("É um transporte aéreo?")
+leia (Não)
+se (não) entao
+escreva ("É um transporte marítimo?")
+leia (sim)
+se (Sim) entao
+escreva("Pode ser usado tanto no rio quanto no mar?")
+leia (Sim)
+se (Sim) então
+escreva("É usado para pescar?")
+leia (Sim)
+escreva("O transporte escolhido foi o barco.")
+senao
+se (Não) entao
+escreva ("O transporte escolhido foi a lancha.")
+fimse
+fimse
+se (Sim) entao
+escreva("É um transporte terrestre?")
+leia (Não)
+se (Não) entao
+escreva("É um transporte aéreo?")
+leia (Não)
+se (não) entao
+escreva ("É um transporte marítimo?")
+leia (sim)
+se (sim) entao
+escreva("É usado em guerra?")
+leia (sim)
+se (sim) entao
+escreva ("O transporte escolhido foi o submarino.")
+senao
+se (Não) entao
+escreva ("O transporte escolhido foi o cruzeiro.")
+fimse
+fimse
+senão 
+se (Não) entao
+escreva("Você não usa transporte.")
+fimse
+
+
+
+
+
+
+
+
+
+
+
+
