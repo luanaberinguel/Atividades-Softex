@@ -1,0 +1,44 @@
+Instruções do projeto
+Em uma inscrição, o usuário informou os seguintes dados:
+
+- Nome: José Almeida da Silva
+- CPF: 12345678900
+- RG: 9517530
+- Altura: 1,78
+- Endereço: Rua A, 380 – Centro – Recife/PE
+
+No algoritmo, descreva como será:
+1. A proposta das variáveis;
+2. Elaborada a declaração das variáveis;
+3. Utilizado o comando de atribuição.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+
+Para o projeto proposto temosa seguinte resolução: 
+
+Algoritmo: Inscrição de Usuários
+
+1. A proposta das variáveis - a proposta de variáveis será: nome, CPF, RG, altura e endereço;
+
+2. Elaborada a declaração das variáveis - a declaração será:
+ tipo Nome;
+ tipo CPF;
+ tipo RG;
+ tipo Altura;
+ tipo Endereço;
+
+ * para a variável nome teremos dados em caracter;
+ * para a variável CPF teremos dados em inteiro;
+ * para a variável RG teremos dados em inteiro; 
+ * para a variável altura teremos dados em real;
+ * para a variável endereço teremos dados em caracter.
+
+3. Utilizado o comando de atribuição - conforme visto no vídeo, o comando de atribuição ocorre quando algum dado é adicionado a uma variável, então teremos o seguinte:
+
+Nome <- José Almeida da Silva
+CPF <- 12345678900
+RG <- 9517530
+Altura <- 1,78
+Endereço <- Rua A, 380 – Centro – Recife/PE
+  
