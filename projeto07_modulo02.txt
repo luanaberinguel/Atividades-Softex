@@ -1,0 +1,24 @@
+Construa um algoritmo de ordenação, utilizando o método bubble sort estudado. (Lembre-se que se trata de uma série de instruções que devem ser seguidas passo a passo).
+Para isso, você deve criar um método em que o tamanho do vetor seja dez e deve estar em ordem crescente.
+
+O vetor deverá:
+- comparar seus elementos dois a dois adjacentes;
+- se os elementos não estiverem em ordem, então ordenar;
+- senão, avançar para o próximo par;
+- repetir a operação até que nenhuma troca possa ser feita no vetor inteiro.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+RESOLUÇÃO
+
+Conforme passado em material didático:
+
+Temos o vetor [ 2, 3, 6, 5]
+
+Na primeira passagem do algorítimo o vetor continuara da mesma forma, não haverá troca de elementos. 
+
+vetor [ 2, 3, 6, 5]
+
+Na segunda passagem, teremos a inversão abaixo, finalizando com isso a execução do algoritmo:
+
+vetor [ 2, 3, 5, 6]
