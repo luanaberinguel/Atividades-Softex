@@ -1,0 +1,35 @@
+Crie um vetor com ponteiros utilizando alocação dinâmica na linguagem C, que:
+
+- use a função realloc;
+- use a função sizeof;
+- que tenha tamanho 22 de vetor;
+- depois libere o bloco utilizando a função free.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+//CÓDIGO EM C
+
+#include <stdio.h>
+#include <stdlib.h>
+main (void)
+{
+int *p, a, i;
+...
+a = 22;
+p=(int *)malloc(a*sizeof(int));
+if (!p)
+{
+printf ("** Erro: Memoria Insuficiente **");
+exit (1);
+}
+
+for (i=0; i<a ; i++)
+p[i] = i*i;
+a = 100;
+p = (int *)realloc (p, a*sizeof(int));
+if (!p) { printf (“\nERRO!\n”); exit (1); }
+for (i=22; i<a ; i++)
+p[i] = a*i*(i-6);
+free (p);
+}
+
